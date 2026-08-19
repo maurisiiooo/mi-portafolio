@@ -17,7 +17,7 @@ Este proyecto es un sitio web de portafolio personal desarrollado para la asigna
 
 ### 1. Configuración del Servidor Apache Tomcat y Variables de Entorno
 * **Problema:** El servidor Tomcat presentaba el error `JAVA_HOME environment variable is not defined` o no iniciaba correctamente desde el entorno local.
-* **Solución:** Se configuró manualmente la variable de entorno指向 la ruta exacta de la instalación de Java JDK (`Eclipse Adoptium JDK 17`) en `setclasspath.bat` para garantizar un despliegue correcto sobre el puerto `8080`.
+* **Solución:** Se configuró manualmente la variable de entorno apuntando a la ruta exacta de la instalación de Java JDK (`Eclipse Adoptium JDK 17`) en `setclasspath.bat` para garantizar un despliegue correcto sobre el puerto `8080`.
 
 ### 2. Renderizado de Páginas JSP
 * **Problema:** Al abrir los archivos dinámicos directamente en el navegador, el código JSP no se procesaba y el navegador descargaba el archivo en lugar de renderizarlo.
