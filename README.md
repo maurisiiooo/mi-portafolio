@@ -23,6 +23,6 @@ Este proyecto es un sitio web de portafolio personal desarrollado para la asigna
 * **Problema:** Al abrir los archivos dinámicos directamente en el navegador, el código JSP no se procesaba y el navegador descargaba el archivo en lugar de renderizarlo.
 * **Solución:** Se desplegó la carpeta completa del proyecto dentro del directorio `webapps` de Apache Tomcat y se accedió mediante la URL local `http://localhost:8080/mi-portafolio/index.jsp`.
 
-## 🗄️ Configuración de la Base de Datos
+## 3. Configuración de la Base de Datos
 1. Importar el script `bd_portafolio.sql` ubicado en la raíz del repositorio hacia MySQL.
 2. Asegurarse de que el conector MySQL JDBC Driver (`mysql-connector-j.jar`) esté presente en la carpeta `WEB-INF/lib` de Tomcat.
